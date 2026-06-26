@@ -4,115 +4,239 @@
 
 ### Backend-Heavy Full Stack Developer
 
-Building production-focused systems, fintech infrastructure, and scalable web applications.
+Building production-grade backend systems, payment infrastructure, scalable APIs, and open-source developer tools.
 
-<p>
-  <a href="https://bekam-beyene.vercel.app">Portfolio</a> •
-  <a href="mailto:bbekam60@gmail.com">Email</a> •
-  <a href="https://t.me/Ur_og">Telegram</a>
-</p>
+<br>
+
+<a href="https://bekam-beyene.vercel.app">
+  <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+</a>
+
+<a href="mailto:bbekam60@gmail.com">
+  <img src="https://img.shields.io/badge/Email-181717?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+
+<a href="https://t.me/Ur_og">
+  <img src="https://img.shields.io/badge/Telegram-229ED9?style=for-the-badge&logo=telegram&logoColor=white" />
+</a>
+
+<a href="https://github.com/OgBek">
+  <img src="https://img.shields.io/github/followers/OgBek?style=for-the-badge" />
+</a>
+
+<a href="https://wakatime.com/@bd057438-0373-4725-9d0d-1c74486eb654">
+  <img src="https://wakatime.com/badge/user/bd057438-0373-4725-9d0d-1c74486eb654.svg?style=for-the-badge" />
+</a>
+
+<br><br>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=900&lines=Building+Software+That+Scales;Production-First+Engineering;Laravel+Package+Developer;Backend+Architecture;Open+Source+Contributor" />
+
+<br><br>
+
+> **Build software that survives production—not just tutorials.**
 
 </div>
 
 ---
 
-## About Me
+# About
 
-* 🇪🇹 Based in Addis Ababa, Ethiopia
-* 🎓 Dilla University Graduate
+<table>
+<tr>
 
-  * CGPA: **3.71 / 4.00**
-  * Exit Exam: **81 / 100**
-* 🧠 Backend-heavy full stack developer
-* 🏛 Worked on systems involving government organizations including **AAHDC** and **AAHDAB**
-* ⚡ Interested in building:
+<td width="60%" valign="top">
 
-  * management systems
-  * fintech infrastructure
-  * scalable APIs
-  * real-time applications
-  * backend architecture
+### Who I Am
 
----
+Backend-heavy Full Stack Developer based in **Addis Ababa, Ethiopia 🇪🇹**.
 
-## Featured Projects
+I enjoy building software that is:
 
-### Telebirr PHP & Laravel SDK
+- Production-ready
+- Secure by default
+- Maintainable
+- Developer-friendly
+- Scalable
 
-Production-focused Telebirr SDK for Laravel and Vanilla PHP with:
+My primary interests include:
 
-* RSA-PSS signing
-* webhook verification
-* replay protection
-* deterministic canonicalization
-* H5/SuperApp integration
-* production interoperability support
+- Payment Infrastructure
+- Backend Architecture
+- API Design
+- Webhook Systems
+- Open Source Development
+- Management Systems
 
-🔗 Repository
-https://github.com/OgBek/Telebirr-laravel-package-sdk
+### Education
 
----
+🎓 **Dilla University**
 
-### FootyLive
+- CGPA: **3.71 / 4.00**
+- Exit Exam: **81 / 100**
 
-Backend-heavy football live score and match tracking platform focused on:
+### Experience
 
-* real-time updates
-* scalable backend architecture
-* fast event handling
-* clean API structure
+🏛 Contributed to systems involving:
 
-🔗 Repository
-https://github.com/OgBek/footyLive
+- Addis Ababa Housing Development Corporation (AAHDC)
+- Addis Ababa Housing Development Administration Bureau (AAHDAB)
 
----
+</td>
 
-## Tech Stack
+<td width="40%" valign="top">
 
-```text
-Backend
-PHP • Laravel • Spring Boot • NestJS • REST APIs • MySQL • Redis • Webhooks
+### Current Focus
 
-Frontend
-JavaScript • TypeScript • React • TailwindCSS • Vite • Blade • Livewire
+🟦 Open Source Laravel Packages
 
-Infrastructure & Systems
-Payment Integrations • API Architecture • Cryptography • Real-time Systems
-```
+🟦 Payment Infrastructure
 
----
+🟦 Backend Architecture
 
-## Engineering Philosophy
+🟦 API Aggregators
 
-I like building systems that are:
+🟦 Redis & Caching
 
-* maintainable
-* deterministic
-* production-safe
-* framework-friendly
-* interoperability-focused
+🟦 System Design
+
+🟦 Developer Tooling
+
+🟦 High-Reliability Integrations
+
+</td>
+
+</tr>
+</table>
 
 ---
 
-## Current Focus
+# 🚀 Flagship Project
 
-* Open source Laravel packages
-* Payment infrastructure tooling
-* Management systems
-* Backend architecture
-* High-reliability integrations
+<div align="center">
+
+## 💳 Telebirr PHP & Laravel SDK
+
+Production-ready Telebirr SDK built for **Laravel** and **Vanilla PHP**.
+
+Secure • Deterministic • Production Ready
+
+<br>
+
+<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
+<img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white"/>
+<img src="https://img.shields.io/badge/Open_Source-181717?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/Production_Ready-2EA043?style=for-the-badge"/>
+
+<br><br>
+
+| 🔐 Security | ⚡ Performance | 📦 Developer Experience |
+|-------------|---------------|--------------------------|
+| RSA-PSS Signing | Replay Protection | Easy Laravel Integration |
+| Webhook Verification | Canonical Requests | Vanilla PHP Support |
+| Secure Callbacks | H5 & SuperApp | Well Documented |
+
+<br>
+
+<a href="https://github.com/OgBek/Telebirr-laravel-package-sdk">
+<img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github"/>
+</a>
+
+</div>
+
+---
+# More Projects
+
+<table>
+<tr>
+
+<td width="50%" valign="top">
+
+## ⚽ FootyLive
+
+Backend-focused football live score platform.
+
+- ⚡ REST APIs
+- 📡 Real-time Updates
+- 🏗 Scalable Backend
+- ⚽ Match Tracking
+
+<br>
+
+<a href="https://github.com/OgBek/footyLive">
+<img src="https://img.shields.io/badge/View_Project-181717?style=for-the-badge&logo=github"/>
+</a>
+
+</td>
+
+<td width="50%" valign="top">
+
+## 🎬 Watchers Heaven
+
+Modern streaming platform concept.
+
+- 🎥 OTT Inspired
+- 🌍 Multilingual
+- 📱 Responsive
+- 🚀 Open Source
+
+<br>
+
+<a href="https://github.com/OgBek/watchers-heaven">
+<img src="https://img.shields.io/badge/View_Project-181717?style=for-the-badge&logo=github"/>
+</a>
+
+</td>
+
+</tr>
+
+</table>
 
 ---
 
-## Contact
 
-📍 Addis Ababa, Ethiopia
+# 🛠 Tech Stack
 
-📧 [bbekam60@gmail.com](mailto:bbekam60@gmail.com)
+<table>
+<tr>
 
-🌐 https://bekam-beyene.vercel.app
+<td width="55%" valign="top">
 
-💬 https://t.me/Ur_og
+## Backend
+
+<p align="left">
+<img src="https://skillicons.dev/icons?i=php,laravel,spring,nextjs,nodejs,redis&theme=dark" />
+</p>
+
+<br>
+
+## Frontend
+
+<p align="left">
+<img src="https://skillicons.dev/icons?i=react,ts,js,tailwind,vite,html,css&theme=dark" />
+</p>
+
+</td>
+
+<td width="45%" valign="top">
+
+## Infrastructure
+
+<p align="left">
+<img src="https://skillicons.dev/icons?i=docker,linux,git,github,mysql,postgres&theme=dark" />
+</p>
+
+</td>
+
+</tr>
+</table>
+
+---
+
+---
+
+
+
 
 ---
 
