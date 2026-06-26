@@ -99,7 +99,7 @@ My primary interests include:
 <p align="center">
 <img src="https://raw.githubusercontent.com/OgBek/OgBek/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation"/>
 </p>
----
+
 # 🚀 Flagship Project
 
 <div align="center">
@@ -237,11 +237,10 @@ Modern streaming platform concept.
 
 ---
 <div align="center">
-
-# Thanks for visiting 👋  
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&pause=2500&color=58A6FF&center=true&vCenter=true&width=650&lines=Thanks+for+stopping+by!;Happy+Coding!;See+you+in+the+next+commit.;Keep+building+awesome+things.">
-
-<br><br>
+  
+<p align="center">
+  <img src="./assets/footer.svg" width="100%" alt="Footer"/>
+</p>
 
 If one of my projects made your day a little easier,
 
@@ -260,5 +259,3 @@ It helps the project reach more developers and encourages continued open-source 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:0D1117,100:1F6FEB&section=footer"/>
 
 </div>
-
-
