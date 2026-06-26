@@ -1,1 +1,82 @@
 
+<svg width="1280" height="170" viewBox="0 0 1280 170" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+<linearGradient id="bg" x1="0" y1="0" x2="1280" y2="170">
+<stop offset="0%" stop-color="#0D1117"/>
+<stop offset="100%" stop-color="#161B22"/>
+</linearGradient>
+
+<linearGradient id="line" x1="0" y1="0" x2="1280" y2="0">
+<stop offset="0%" stop-color="#58A6FF"/>
+<stop offset="100%" stop-color="#1F6FEB"/>
+</linearGradient>
+
+<filter id="glow">
+<feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+<feMerge>
+<feMergeNode in="coloredBlur"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+
+</defs>
+
+<!-- Background -->
+
+<rect width="1280" height="170" rx="26" fill="url(#bg)"/>
+
+<!-- Top Accent -->
+
+<rect x="40" y="32" width="1200" height="2" rx="2" fill="url(#line)"/>
+
+<!-- Bottom Accent -->
+
+<rect x="40" y="138" width="1200" height="2" rx="2" fill="url(#line)" opacity=".6"/>
+
+<!-- Decorative Circles -->
+
+<circle cx="95" cy="85" r="24" stroke="#58A6FF" opacity=".18"/>
+<circle cx="1185" cy="85" r="24" stroke="#58A6FF" opacity=".18"/>
+
+<!-- Main Text -->
+
+<text
+x="640"
+y="70"
+text-anchor="middle"
+font-size="30"
+font-family="Segoe UI, Arial, sans-serif"
+font-weight="700"
+fill="#F0F6FC">
+
+Thanks for visiting 👋
+
+</text>
+
+<text
+x="640"
+y="103"
+text-anchor="middle"
+font-size="18"
+font-family="JetBrains Mono, monospace"
+fill="#58A6FF">
+
+Keep Building • Keep Learning • Keep Shipping
+
+</text>
+
+<text
+x="640"
+y="130"
+text-anchor="middle"
+font-size="15"
+font-family="Segoe UI, Arial, sans-serif"
+fill="#8B949E">
+
+See you in the next commit.
+
+</text>
+
+</svg>
