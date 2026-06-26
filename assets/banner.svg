@@ -1,161 +1,64 @@
 <svg width="1280" height="340" viewBox="0 0 1280 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-sky" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3F7FA"/>
+      <stop offset="50%" stop-color="#EAF2F8"/>
+      <stop offset="100%" stop-color="#F1EBF9"/>
+    </linearGradient>
 
-<defs>
+    <radialGradient id="orb-mist" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#93C5FD" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#93C5FD" stop-opacity="0"/>
+    </radialGradient>
 
-<linearGradient id="bg" x1="0" y1="0" x2="1280" y2="340">
-<stop offset="0%" stop-color="#0D1117"/>
-<stop offset="100%" stop-color="#161B22"/>
-</linearGradient>
+    <radialGradient id="orb-lavender" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C084FC" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#C084FC" stop-opacity="0"/>
+    </radialGradient>
 
-<linearGradient id="blue" x1="0" y1="0" x2="1280" y2="0">
-<stop offset="0%" stop-color="#58A6FF"/>
-<stop offset="100%" stop-color="#1F6FEB"/>
-</linearGradient>
+    <radialGradient id="orb-mint" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2DD4BF" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#2DD4BF" stop-opacity="0"/>
+    </radialGradient>
 
-<filter id="glow">
-<feGaussianBlur stdDeviation="6" result="coloredBlur"/>
-<feMerge>
-<feMergeNode in="coloredBlur"/>
-<feMergeNode in="SourceGraphic"/>
-</feMerge>
-</filter>
+    <style>
+      /* Slow, meditative floating animations */
+      @keyframes drift-calm {
+        0%, 100% { transform: translate(0px, 0px) scale(1); }
+        50% { transform: translate(30px, -15px) scale(1.05); }
+      }
+      @keyframes drift-reverse {
+        0%, 100% { transform: translate(0px, 0px) scale(1.05); }
+        50% { transform: translate(-20px, 20px) scale(0.95); }
+      }
+      .orb-1 { animation: drift-calm 14s ease-in-out infinite; }
+      .orb-2 { animation: drift-reverse 18s ease-in-out infinite 1s; }
+      .orb-3 { animation: drift-calm 16s ease-in-out infinite reverse; }
+    </style>
+  </defs>
 
-</defs>
+  <rect width="1280" height="340" rx="20" fill="url(#bg-sky)"/>
 
-<!-- Background -->
+  <g style="mix-blend-mode: multiply;">
+    <circle class="orb-1" cx="1120" cy="90" r="200" fill="url(#orb-mist)"/>
+    <circle class="orb-2" cx="950" cy="250" r="240" fill="url(#orb-lavender)"/>
+    <circle class="orb-3" cx="720" cy="110" r="160" fill="url(#orb-mint)"/>
+  </g>
 
-<rect width="1280" height="340" rx="28" fill="url(#bg)"/>
+  <text x="80" y="115" font-size="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-weight="800" fill="#1E293B" letter-spacing="-1px">
+    Bekam Beyene
+  </text>
 
-<!-- Decorative Grid -->
+  <text x="82" y="158" font-size="20" font-family="'Fira Code', Menlo, Monaco, Consolas, monospace" font-weight="600" fill="#2563EB" letter-spacing="-0.5px">
+    Backend-Heavy Full Stack Developer
+  </text>
 
-<g opacity="0.06">
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="18" fill="#475569" font-weight="400">
+    <text x="82" y="212">Building production-ready backend architectures, secure payment integrations,</text>
+    <text x="82" y="242">high-reliability API design, and intuitive open-source developer tooling.</text>
+  </g>
 
-<path d="M0 60H1280"/>
-<path d="M0 120H1280"/>
-<path d="M0 180H1280"/>
-<path d="M0 240H1280"/>
-<path d="M0 300H1280"/>
-
-<path d="M120 0V340"/>
-<path d="M260 0V340"/>
-<path d="M400 0V340"/>
-<path d="M540 0V340"/>
-<path d="M680 0V340"/>
-<path d="M820 0V340"/>
-<path d="M960 0V340"/>
-<path d="M1100 0V340"/>
-
-</g>
-
-<!-- Blue Accent -->
-
-<rect x="40" y="40" width="7" height="260" rx="4" fill="url(#blue)"/>
-
-<!-- Decorative Circle -->
-
-<circle cx="1110" cy="90" r="55"
-fill="none"
-stroke="#58A6FF"
-stroke-width="2"
-opacity=".18"/>
-
-<circle cx="1110" cy="90" r="30"
-fill="none"
-stroke="#58A6FF"
-stroke-width="2"
-opacity=".35"/>
-
-<!-- Decorative Lines -->
-
-<line x1="1030" y1="170" x2="1210" y2="170"
-stroke="#58A6FF"
-opacity=".25"/>
-
-<line x1="1030" y1="200" x2="1180" y2="200"
-stroke="#58A6FF"
-opacity=".18"/>
-
-<line x1="1030" y1="230" x2="1160" y2="230"
-stroke="#58A6FF"
-opacity=".12"/>
-
-<!-- Name -->
-
-<text
-x="90"
-y="95"
-font-size="46"
-font-family="Segoe UI, Arial, Helvetica, sans-serif"
-font-weight="700"
-fill="#F0F6FC">
-
-Bekam Beyene
-
-</text>
-
-<!-- Title -->
-
-<text
-x="90"
-y="135"
-font-size="22"
-font-family="JetBrains Mono, Consolas, monospace"
-fill="#58A6FF">
-
-Backend-Heavy Full Stack Developer
-
-</text>
-
-<!-- Description -->
-
-<text
-x="90"
-y="190"
-font-size="19"
-font-family="Segoe UI, Arial"
-fill="#C9D1D9">
-
-Building production-grade backend systems,
-
-</text>
-
-<text
-x="90"
-y="220"
-font-size="19"
-font-family="Segoe UI, Arial"
-fill="#C9D1D9">
-
-payment infrastructure, scalable APIs,
-
-</text>
-
-<text
-x="90"
-y="250"
-font-size="19"
-font-family="Segoe UI, Arial"
-fill="#C9D1D9">
-
-and open-source developer tools.
-
-</text>
-
-<!-- Bottom Tags -->
-
-<g filter="url(#glow)">
-
-<text
-x="90"
-y="305"
-font-size="15"
-font-family="JetBrains Mono, monospace"
-fill="#58A6FF">
-
-Laravel • PHP • Spring Boot • React • Redis • Docker • PostgreSQL • Open Source
-
-</text>
-
-</g>
-
+  <text x="82" y="295" font-size="13" font-family="'Fira Code', Menlo, Monaco, monospace" font-weight="600" fill="#6B21A8" letter-spacing="1.5px">
+    LARAVEL • PHP • SPRING BOOT • REACT • REDIS • DOCKER • POSTGRESQL
+  </text>
 </svg>
