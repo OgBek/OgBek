@@ -1,1 +1,161 @@
+<svg width="1280" height="340" viewBox="0 0 1280 340" fill="none" xmlns="http://www.w3.org/2000/svg">
 
+<defs>
+
+<linearGradient id="bg" x1="0" y1="0" x2="1280" y2="340">
+<stop offset="0%" stop-color="#0D1117"/>
+<stop offset="100%" stop-color="#161B22"/>
+</linearGradient>
+
+<linearGradient id="blue" x1="0" y1="0" x2="1280" y2="0">
+<stop offset="0%" stop-color="#58A6FF"/>
+<stop offset="100%" stop-color="#1F6FEB"/>
+</linearGradient>
+
+<filter id="glow">
+<feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+<feMerge>
+<feMergeNode in="coloredBlur"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+
+</defs>
+
+<!-- Background -->
+
+<rect width="1280" height="340" rx="28" fill="url(#bg)"/>
+
+<!-- Decorative Grid -->
+
+<g opacity="0.06">
+
+<path d="M0 60H1280"/>
+<path d="M0 120H1280"/>
+<path d="M0 180H1280"/>
+<path d="M0 240H1280"/>
+<path d="M0 300H1280"/>
+
+<path d="M120 0V340"/>
+<path d="M260 0V340"/>
+<path d="M400 0V340"/>
+<path d="M540 0V340"/>
+<path d="M680 0V340"/>
+<path d="M820 0V340"/>
+<path d="M960 0V340"/>
+<path d="M1100 0V340"/>
+
+</g>
+
+<!-- Blue Accent -->
+
+<rect x="40" y="40" width="7" height="260" rx="4" fill="url(#blue)"/>
+
+<!-- Decorative Circle -->
+
+<circle cx="1110" cy="90" r="55"
+fill="none"
+stroke="#58A6FF"
+stroke-width="2"
+opacity=".18"/>
+
+<circle cx="1110" cy="90" r="30"
+fill="none"
+stroke="#58A6FF"
+stroke-width="2"
+opacity=".35"/>
+
+<!-- Decorative Lines -->
+
+<line x1="1030" y1="170" x2="1210" y2="170"
+stroke="#58A6FF"
+opacity=".25"/>
+
+<line x1="1030" y1="200" x2="1180" y2="200"
+stroke="#58A6FF"
+opacity=".18"/>
+
+<line x1="1030" y1="230" x2="1160" y2="230"
+stroke="#58A6FF"
+opacity=".12"/>
+
+<!-- Name -->
+
+<text
+x="90"
+y="95"
+font-size="46"
+font-family="Segoe UI, Arial, Helvetica, sans-serif"
+font-weight="700"
+fill="#F0F6FC">
+
+Bekam Beyene
+
+</text>
+
+<!-- Title -->
+
+<text
+x="90"
+y="135"
+font-size="22"
+font-family="JetBrains Mono, Consolas, monospace"
+fill="#58A6FF">
+
+Backend-Heavy Full Stack Developer
+
+</text>
+
+<!-- Description -->
+
+<text
+x="90"
+y="190"
+font-size="19"
+font-family="Segoe UI, Arial"
+fill="#C9D1D9">
+
+Building production-grade backend systems,
+
+</text>
+
+<text
+x="90"
+y="220"
+font-size="19"
+font-family="Segoe UI, Arial"
+fill="#C9D1D9">
+
+payment infrastructure, scalable APIs,
+
+</text>
+
+<text
+x="90"
+y="250"
+font-size="19"
+font-family="Segoe UI, Arial"
+fill="#C9D1D9">
+
+and open-source developer tools.
+
+</text>
+
+<!-- Bottom Tags -->
+
+<g filter="url(#glow)">
+
+<text
+x="90"
+y="305"
+font-size="15"
+font-family="JetBrains Mono, monospace"
+fill="#58A6FF">
+
+Laravel • PHP • Spring Boot • React • Redis • Docker • PostgreSQL • Open Source
+
+</text>
+
+</g>
+
+</svg>
