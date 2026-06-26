@@ -1,82 +1,46 @@
-
 <svg width="1280" height="170" viewBox="0 0 1280 170" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-sky-footer" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3F7FA"/>
+      <stop offset="50%" stop-color="#EAF2F8"/>
+      <stop offset="100%" stop-color="#F1EBF9"/>
+    </linearGradient>
 
-<defs>
+    <linearGradient id="line-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="50%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
 
-<linearGradient id="bg" x1="0" y1="0" x2="1280" y2="170">
-<stop offset="0%" stop-color="#0D1117"/>
-<stop offset="100%" stop-color="#161B22"/>
-</linearGradient>
+    <style>
+      /* Smooth, restful pulsing animation for a gentle vibe */
+      @keyframes soft-pulse {
+        0%, 100% { opacity: 0.15; transform: scale(1); }
+        50% { opacity: 0.35; transform: scale(1.05); }
+      }
+      .decor-circle-left { animation: soft-pulse 6s ease-in-out infinite; transform-origin: 95px 85px; }
+      .decor-circle-right { animation: soft-pulse 6s ease-in-out infinite 3s; transform-origin: 1185px 85px; }
+    </style>
+  </defs>
 
-<linearGradient id="line" x1="0" y1="0" x2="1280" y2="0">
-<stop offset="0%" stop-color="#58A6FF"/>
-<stop offset="100%" stop-color="#1F6FEB"/>
-</linearGradient>
+  <rect width="1280" height="170" rx="20" fill="url(#bg-sky-footer)"/>
 
-<filter id="glow">
-<feGaussianBlur stdDeviation="4" result="coloredBlur"/>
-<feMerge>
-<feMergeNode in="coloredBlur"/>
-<feMergeNode in="SourceGraphic"/>
-</feMerge>
-</filter>
+  <rect x="40" y="32" width="1200" height="2" rx="1" fill="url(#line-gradient)"/>
 
-</defs>
+  <rect x="40" y="138" width="1200" height="2" rx="1" fill="url(#line-gradient)" opacity="0.4"/>
 
-<!-- Background -->
+  <circle class="decor-circle-left" cx="95" cy="85" r="24" stroke="#2563EB" stroke-width="1.5"/>
+  <circle class="decor-circle-right" cx="1185" cy="85" r="24" stroke="#6B21A8" stroke-width="1.5"/>
 
-<rect width="1280" height="170" rx="26" fill="url(#bg)"/>
+  <text x="640" y="72" text-anchor="middle" font-size="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-weight="800" fill="#1E293B" letter-spacing="-0.5px">
+    Thanks for visiting 👋
+  </text>
 
-<!-- Top Accent -->
+  <text x="640" y="104" text-anchor="middle" font-size="16" font-family="'Fira Code', Menlo, Monaco, monospace" font-weight="600" fill="#2563EB" letter-spacing="0.5px">
+    Keep Building • Keep Learning • Keep Shipping
+  </text>
 
-<rect x="40" y="32" width="1200" height="2" rx="2" fill="url(#line)"/>
-
-<!-- Bottom Accent -->
-
-<rect x="40" y="138" width="1200" height="2" rx="2" fill="url(#line)" opacity=".6"/>
-
-<!-- Decorative Circles -->
-
-<circle cx="95" cy="85" r="24" stroke="#58A6FF" opacity=".18"/>
-<circle cx="1185" cy="85" r="24" stroke="#58A6FF" opacity=".18"/>
-
-<!-- Main Text -->
-
-<text
-x="640"
-y="70"
-text-anchor="middle"
-font-size="30"
-font-family="Segoe UI, Arial, sans-serif"
-font-weight="700"
-fill="#F0F6FC">
-
-Thanks for visiting 👋
-
-</text>
-
-<text
-x="640"
-y="103"
-text-anchor="middle"
-font-size="18"
-font-family="JetBrains Mono, monospace"
-fill="#58A6FF">
-
-Keep Building • Keep Learning • Keep Shipping
-
-</text>
-
-<text
-x="640"
-y="130"
-text-anchor="middle"
-font-size="15"
-font-family="Segoe UI, Arial, sans-serif"
-fill="#8B949E">
-
-See you in the next commit.
-
-</text>
-
+  <text x="640" y="128" text-anchor="middle" font-size="14" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-weight="500" fill="#64748B">
+    See you in the next commit.
+  </text>
 </svg>
