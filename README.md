@@ -79,13 +79,6 @@ My primary interests include:
 - CGPA: **3.71 / 4.00**
 - Exit Exam: **81 / 100**
 
-### Experience
-
-🏛 Contributed to systems involving:
-
-- Addis Ababa Housing Development Corporation (AAHDC)
-- Addis Ababa Housing Development Administration Bureau (AAHDAB)
-
 </td>
 
 <td width="40%" valign="top">
@@ -108,6 +101,13 @@ My primary interests include:
 
 🟦 High-Reliability Integrations
 
+
+### Experience
+
+🏛 Contributed to systems involving:
+
+- Addis Ababa Housing Development Corporation (AAHDC)
+- Addis Ababa Housing Development Administration Bureau (AAHDAB)
 </td>
 
 </tr>
@@ -249,28 +249,6 @@ Modern streaming platform concept.
 <img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=OgBek&layout=compact&theme=github_dark&hide_border=true&langs_count=8"/>
 
 </div>
-
----
-# 📈 Contribution Activity
-
-<p align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=OgBek&theme=github-dark&hide_border=true"/>
-
-</p>
-
----
-# ⏱ Coding Time
-
-<p align="center">
-
-<a href="https://wakatime.com/@bd057438-0373-4725-9d0d-1c74486eb654">
-
-<img src="https://wakatime.com/badge/user/bd057438-0373-4725-9d0d-1c74486eb654.svg?style=for-the-badge"/>
-
-</a>
-
-</p>
 
 ---
 <div align="center">
