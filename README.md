@@ -1,48 +1,29 @@
-<div align="center">
-  
 <p align="center">
-<img src="https://raw.githubusercontent.com/OgBek/OgBek/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation"/>
+  <img src="./assets/banner.svg" width="100%" alt="Bekam Beyene Banner"/>
 </p>
-
-# Bekam Beyene
-
-### Backend-Heavy Full Stack Developer
-
-Building production-grade backend systems, payment infrastructure, scalable APIs, and open-source developer tools.
-
-<br>
+<div align="center">
 
 <a href="https://bekam-beyene.vercel.app">
-  <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+<img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
 </a>
 
 <a href="mailto:bbekam60@gmail.com">
-  <img src="https://img.shields.io/badge/Email-181717?style=for-the-badge&logo=gmail&logoColor=white" />
+<img src="https://img.shields.io/badge/Email-181717?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
 <a href="https://t.me/Ur_og">
-  <img src="https://img.shields.io/badge/Telegram-229ED9?style=for-the-badge&logo=telegram&logoColor=white" />
+<img src="https://img.shields.io/badge/Telegram-229ED9?style=for-the-badge&logo=telegram&logoColor=white"/>
 </a>
 
 <a href="https://github.com/OgBek">
-  <img src="https://img.shields.io/github/followers/OgBek?style=for-the-badge" />
+<img src="https://img.shields.io/github/followers/OgBek?style=for-the-badge"/>
 </a>
 
 <a href="https://wakatime.com/@bd057438-0373-4725-9d0d-1c74486eb654">
-  <img src="https://wakatime.com/badge/user/bd057438-0373-4725-9d0d-1c74486eb654.svg?style=for-the-badge" />
+<img src="https://wakatime.com/badge/user/bd057438-0373-4725-9d0d-1c74486eb654.svg?style=for-the-badge"/>
 </a>
 
-<br><br>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=900&lines=Building+Software+That+Scales;Production-First+Engineering;Laravel+Package+Developer;Backend+Architecture;Open+Source+Contributor" />
-
-<br><br>
-
-> **Build software that survives production—not just tutorials.**
-
 </div>
-
----
 
 # About
 
@@ -114,7 +95,11 @@ My primary interests include:
 </table>
 
 ---
-
+  
+<p align="center">
+<img src="https://raw.githubusercontent.com/OgBek/OgBek/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation"/>
+</p>
+---
 # 🚀 Flagship Project
 
 <div align="center">
