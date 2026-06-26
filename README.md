@@ -1,4 +1,8 @@
 <div align="center">
+  
+<p align="center">
+<img src="https://raw.githubusercontent.com/OgBek/OgBek/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation"/>
+</p>
 
 # Bekam Beyene
 
@@ -232,18 +236,66 @@ Modern streaming platform concept.
 </table>
 
 ---
-
----
-
-
-
-
----
+# 📊 GitHub Dashboard
 
 <div align="center">
 
-### If you enjoy my projects, give them a ⭐
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=OgBek&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github"/>
 
-*(free dopamine for open source maintainers)*
+<img width="49%" src="https://streak-stats.demolab.com?user=OgBek&theme=github-dark&hide_border=true"/>
+
+<br>
+
+<img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=OgBek&layout=compact&theme=github_dark&hide_border=true&langs_count=8"/>
 
 </div>
+
+---
+# 📈 Contribution Activity
+
+<p align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=OgBek&theme=github-dark&hide_border=true"/>
+
+</p>
+
+---
+# ⏱ Coding Time
+
+<p align="center">
+
+<a href="https://wakatime.com/@bd057438-0373-4725-9d0d-1c74486eb654">
+
+<img src="https://wakatime.com/badge/user/bd057438-0373-4725-9d0d-1c74486eb654.svg?style=for-the-badge"/>
+
+</a>
+
+</p>
+
+---
+<div align="center">
+
+# Thanks for visiting 👋  
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&pause=2500&color=58A6FF&center=true&vCenter=true&width=650&lines=Thanks+for+stopping+by!;Happy+Coding!;See+you+in+the+next+commit.;Keep+building+awesome+things.">
+
+<br><br>
+
+If one of my projects made your day a little easier,
+
+consider giving it a ⭐.
+
+It helps the project reach more developers and encourages continued open-source work.
+
+<br>
+
+<a href="https://github.com/OgBek?tab=repositories">
+<img src="https://img.shields.io/badge/⭐_Star_My_Projects-238636?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<br><br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:0D1117,100:1F6FEB&section=footer"/>
+
+</div>
+
+
