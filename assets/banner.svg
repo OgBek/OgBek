@@ -57,8 +57,4 @@
     <text x="82" y="212">Building production-ready backend architectures, secure payment integrations,</text>
     <text x="82" y="242">high-reliability API design, and intuitive open-source developer tooling.</text>
   </g>
-
-  <text x="82" y="295" font-size="13" font-family="'Fira Code', Menlo, Monaco, monospace" font-weight="600" fill="#6B21A8" letter-spacing="1.5px">
-    LARAVEL • PHP • SPRING BOOT • REACT • REDIS • DOCKER • POSTGRESQL
-  </text>
 </svg>
